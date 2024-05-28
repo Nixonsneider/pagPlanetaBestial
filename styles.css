@@ -1,0 +1,128 @@
+html, body{
+    margin: 0;
+    font-family: sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.enc{
+    color: #fff;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #00012a;
+}
+.titulo{
+    margin: 0;
+}
+
+
+.navegacion{
+    width: 100%;
+    background-color: #00012a;
+    height: 50px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.links{
+    color: #fff;
+    margin: 10px;
+    text-decoration: none;
+    background-color: #000148;
+    padding: 8px 12px;
+    border-radius: 7px;
+    box-shadow: 0 0 4px 1px #000;
+}
+
+
+.principal{
+    height: auto;
+    display: flex;
+}
+.div1{
+    width: 70%;
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.apartadoDiv1{
+    margin:auto;
+    background-color: #00012a;
+    height: 100%;
+    max-height: 500px;
+    text-align: center;
+    display: flex;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+.apartadoSubtitle{
+    margin-top: 3em;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 60px; 
+    width: 100%;  
+    height: auto;
+}
+
+.imagen{
+    border-radius: 10px;
+    width: 95%;
+    height: 200px;
+    background: url(img/36968c6cce7610f295d01bb38bbf213b.jpg) bottom / cover no-repeat fixed;
+    margin: auto;
+    margin-top: 10px;
+}
+.opaco {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.308);
+}
+.div2{
+    width: 30%;
+    height: 100%;
+    background-color: #e6e6e6;
+    box-sizing: border-box;
+}
+.barraLat{
+    margin: auto;
+    margin: 40px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.527);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.autor{
+    text-align: right;
+    font-size: 15px;
+}
+.subDiv1{
+    margin: 3px 0 0 0;
+    padding: 20px;
+    color: rgb(58, 58, 58);
+}
+.pDiv1{
+    margin: 0;
+    padding: 15px 20px;
+}
+
+.piePag{
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    background-color: #000148;
+    bottom: 0; 
+    text-align: center;   
+    font-size: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-weight: 100;
+}
+.imgfrases{
+    width: auto;
+    max-width: 100%;
+}
+
